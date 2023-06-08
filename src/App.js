@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './Navbar/Navbar'
+import About from './About/About'
+import Canter from './Canter/canter'
 
-function App() {
+
+const App = () => {
+  const list = ['Home', 'About', 'Contact']
+  let stuff = About({title: 'Scope', items: list})
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>
+      {/* <h2>Hello World</h2> */}
+    {/* How props works */}
+      <Navbar title="Congratulation"/>
+      <About 
+        title = "Scope"
+         items = {list}
+         
+      />
+
+      {stuff}
+      <Canter/>
+      </div>
+  )
 }
 
-export default App;
+export default App
