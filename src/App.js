@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       {/* <h2>Hello World</h2> */}
-    {/* How props works */}
+    
       <Navbar title="Congratulation"/>
       <About 
         title = "Scope"
