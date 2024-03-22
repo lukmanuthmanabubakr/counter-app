@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = (props) => {
   return (
     <nav className='nav'>
-        {/* <div className="container">
+       
          
     </nav>
   )
