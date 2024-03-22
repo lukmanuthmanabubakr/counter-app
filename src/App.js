@@ -9,7 +9,7 @@ const App = () => {
   let stuff = About({title: 'Scope', items: list})
   return (
     <div>
-      {/* <h2>World</h2> */}
+      
     
       <Navbar title="Congratulation"/>
       <About 
