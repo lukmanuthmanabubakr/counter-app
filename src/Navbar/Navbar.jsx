@@ -5,8 +5,7 @@ const Navbar = (props) => {
   return (
     <nav className='nav'>
         {/* <div className="container">
-          <a href='#'>Hey Guys Lets celebrate: {props.title}</a>
-        </div> */}
+         
     </nav>
   )
 }
